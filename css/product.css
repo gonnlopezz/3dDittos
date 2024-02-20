@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+
+.nav {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: absolute;
+    top: 1rem;
+    left: 5%;
+}
+
+.button-back {
+    width: 30px;
+    filter: invert(1)
+}
+
+.button-options {
+    width: 30px;
+    filter: invert(1)
+}
+
+
+.hero {
+    width: 100%;
+    border-end-end-radius: 12%;
+    border-end-start-radius: 12%;
+}
+
+.container {
+    width: 85%;
+    margin: 0.8rem auto;
+}
+
+.main-title {
+    font-size: 1.8rem;
+}
+
+.sub-title {
+    font-size: 1.4rem;
+    color: #666;
+}
+
+.precio-container {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.precio {
+    font-size: 1.5rem;
+}
+
+.cantidad-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-less {
+    height: 2.3rem;
+    width: 1.8rem;
+    background-color: #fe76b4;;
+    border: none;
+    border-start-start-radius: 40%;
+    border-end-start-radius: 40%;
+    color: #fff;
+}
+
+.button-add {
+    height: 2.3rem;
+    width: 1.8rem;
+    background-color: #fe76b4;;
+    border: none;
+    border-start-end-radius: 40%;
+    border-end-end-radius: 40%;
+    color: #fff;
+}
+
+.cantidad {
+    height: 2.3rem;
+    width: 1.8rem;
+    background-color: #fe76b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.descripcion-title {
+    margin: 1rem 0;
+}
+
+.descripcion-text {
+    color: #666;
+    font-size: .9rem;
+}
+
+.buy-button {
+    color: #fff;
+    font-size: 1.3rem;
+    display: flex;
+    background-color: #fe76b4;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2.5rem auto;
+    height: 4rem;
+    border: none;
+    border-radius: 20px;
+}
